@@ -37,7 +37,11 @@
         font-size: 1.3rem;
         display: inline-flex;
         align-items: center;
+        opacity: 0.8;
+    }
 
+    .chip:hover {
+        opacity: 1;
     }
 
     .large {
