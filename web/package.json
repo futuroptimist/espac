@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "@astrojs/svelte": "^2.1.0",
+    "@sveltejs/vite-plugin-svelte": "^2.2.0",
     "astro": "^2.3.2",
     "svelte": "^3.50.1",
     "svelte-switch-case": "^2.0.0"

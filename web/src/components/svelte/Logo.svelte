@@ -30,19 +30,5 @@
             width: 150px;
             height: 150px;
         }
-
-        .info {
-            display: none;
-        }
-    }
-
-    .info {
-        position: absolute;
-        bottom: 10%;
-        left: 10%;
-        background-color: rgb(64, 250, 95);
-        color: black;
-        border-radius: 20%;
-        padding: 4px 8px;
     }
 </style>

@@ -12,10 +12,6 @@
         transform: scale(0.05);
     }
 
-    .inverted {
-        fill: #00ff40;
-    }
-
     svg {
         width: 30px;
         height: 30px;

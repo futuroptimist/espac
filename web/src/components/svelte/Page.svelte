@@ -29,11 +29,6 @@
     :root {
         background-color: #141414;
     }
-
-    p {
-        color: white;
-        font-size: 2rem;
-    }
     
     .horizontal {
         display: flex;
