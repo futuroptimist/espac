@@ -9,8 +9,16 @@
     "preview": "astro preview",
     "astro": "astro"
   },
-  "dependencies": {
+  "devDependencies": {
     "@astrojs/svelte": "^2.1.0",
+    "astro": "^2.3.2",
+    "svelte": "^3.50.1",
+    "svelte-switch-case": "^2.0.0"
+  },
+  "dependencies": {
+    "@astrojs/netlify": "^2.2.2",
+    "@astrojs/renderer-svelte": "^0.5.2",
+    "@astrojs/vercel": "^3.2.5",
     "astro": "^2.3.0"
   }
 }
