@@ -1,8 +1,9 @@
 ---
-import DefaultLayout from '../../layouts/default.astro';
-import Page from '../svelte/Page.svelte';
+import DefaultLayout from '../../layouts/DefaultLayout.astro'
+
+const { title } = Astro.props;
 ---
 
-<DefaultLayout title="esp.ac">
-    <Page client:load />
+<DefaultLayout title={title}>
+    <slot />
 </DefaultLayout>
